@@ -30,7 +30,8 @@ The system includes the following MongoDB collections:
 ### Set Up MongoDB
 Ensure MongoDB is installed and running on your machine or accessible via a cloud service. Create the required collections:
 
-``` use groceryDB
+```MongoDB Shell
+use groceryDB
 db.createCollection("PRODUCTS")
 db.createCollection("CUSTOMER")
 db.createCollection("EMPLOYEE")
@@ -39,49 +40,45 @@ db.createCollection("LOGIN PANEL")
 db.createCollection("FEEDBACK")
 db.createCollection("INVENTORY")
 db.createCollection("SALES")
-db.createCollection("SUPPLIER")```
+db.createCollection("SUPPLIER")
+```
 
-Configure Connection String
+### Configure Connection String
 
 In the project, locate the MongoDB connection string in the configuration file and update it with your MongoDB instance details.
 
-csharp
-Copy code
+``` csharp
 // Example configuration in app.config or settings file
 <connectionStrings>
     <add name="MongoDBConnectionString" connectionString="mongodb://localhost:27017/groceryDB" />
 </connectionStrings>
-Build and Run the Project
+```
+### Build and Run the Project
 
 Open the solution in Visual Studio, build the project, and run it.
 
-Usage
-Login: Use the login panel to access the system.
-Manage Products: Add, update, delete, and view products in the inventory.
-Customer Management: Maintain customer information and view feedback.
-Employee Management: Add and manage employee records.
-Promotions: Create and apply promotions to products.
-Sales: Track and analyze sales data.
-Suppliers: Manage supplier details and inventory supplies.
-Screenshots
+## Usage
++ Login: Use the login panel to access the system.
++ Manage Products: Add, update, delete, and view products in the inventory.
++ Customer Management: Maintain customer information and view feedback.
++ Employee Management: Add and manage employee records.
++ Promotions: Create and apply promotions to products.
++ Sales: Track and analyze sales data.
++ Suppliers: Manage supplier details and inventory supplies.
+### Screenshots
+Here are some screenshots for some idea of how the forms are presented to the user.
 
 Login panel for user authentication
-
+![image](https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/e0087178-d49f-4ae7-9368-b6ad1d016ffc)
 
 Interface for managing products
-
+![image](https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/9518c436-c8a9-4e00-8d14-d9e466474057)
 
 Sales data tracking and analysis
+![image](https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/da3e4256-6ee2-4044-897b-cec7fb9b91c9)
 
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure your code adheres to the project's coding standards.
+## License
+You are allowed to modify or use this code any way you like.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Contact
-For any inquiries or feedback, please reach out to:
-
-Email: your.email@example.com
-GitHub: yourusername
+***
 Thank you for using the Grocery Management System! We hope it helps you manage your grocery store operations effectively.
