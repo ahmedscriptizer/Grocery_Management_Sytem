@@ -69,10 +69,12 @@ Open the solution in Visual Studio, build the project, and run it.
 Here are some screenshots for some idea of how the forms are presented to the user.
 
 Login panel for user authentication
-![image](https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/e0087178-d49f-4ae7-9368-b6ad1d016ffc)
+
+<img src="https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/e0087178-d49f-4ae7-9368-b6ad1d016ffc" alt="Product Management" width="500"/>
 
 Interface for managing products
-![image](https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/9518c436-c8a9-4e00-8d14-d9e466474057)
+
+<img src="https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/9518c436-c8a9-4e00-8d14-d9e466474057" alt="Login Panel" width="500"/>
 
 Sales data tracking and analysis
 
