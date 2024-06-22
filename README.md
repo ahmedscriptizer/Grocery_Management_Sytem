@@ -75,7 +75,7 @@ Interface for managing products
 ![image](https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/9518c436-c8a9-4e00-8d14-d9e466474057)
 
 Sales data tracking and analysis
-![image](https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/da3e4256-6ee2-4044-897b-cec7fb9b91c9)
+<img src="https://github.com/ahmedscriptizer/Grocery_Management_Sytem/assets/142499778/da3e4256-6ee2-4044-897b-cec7fb9b91c9" alt="image" width="500"/>
 
 ## License
 You are allowed to modify or use this code any way you like.
