@@ -2,13 +2,13 @@
 Welcome to the Grocery Management System! This project is designed to manage the operations of a grocery store efficiently, including product management, customer interactions, employee data, promotions, and sales. The system is built using C# Windows Forms and connected to MongoDB for data persistence.
 
 ## Features
-+ CRUD Operations: Perform Create, Read, Update, and Delete operations on various collections.
-+ Atomic Transactions: Ensure data integrity and consistency with atomic operations.
-+ User Authentication: Secure login panel for employee and admin access.
-+ Feedback System: Collect and manage customer feedback.
-+ Inventory Management: Track and manage stock levels.
-+ Sales Tracking: Record and analyze sales data.
-+ Supplier Management: Manage supplier information and orders.
++ **CRUD Operations:** Perform Create, Read, Update, and Delete operations on various collections.
++ **Atomic Transactions:** Ensure data integrity and consistency with atomic operations.
++ **User Authentication:** Secure login panel for employee and admin access.
++ **Feedback System:** Collect and manage customer feedback.
++ **Inventory Management:** Track and manage stock levels.
++ **Sales Tracking:** Record and analyze sales data.
++ **Supplier Management:** Manage supplier information and orders.
 ## Collections
 The system includes the following MongoDB collections:
 
